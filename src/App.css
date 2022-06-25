@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+}
+.proposed-metrics
+{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  row-gap: 0;
+}
+.proposed-metrics table
+{
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #424760;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #181A23;
+  cursor: pointer;
+   
+    pointer-events: auto;
+}
+.line-chart
+{
+  
+  margin-top: 25px;
+  padding: 20px;
+  border: solid 2px #898D90;
+  width: 500px;
+}
+button
+{
+  background: none;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  height: 50px;
+  color: #DCDEE6;
+  font-size: large;
+}
+button:hover
+{
+  background-color:#282B3F; ;
+}
+button:active
+{
+  background-color: #0D0E13;
+  
+}
+
+
+.header {
+  padding: 15px;
+  position: sticky;
+  background: #181A23;
+  color: #DCDEE6;
+  font-size: 30px;
+  width: 100%;
+}
+
+body {
+
+  background-color: #282B3A;
+  color: white;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container {
+
+  padding: 100px;
+
+}
+
+
+/* 
+Reference: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  background-color: #1F212D;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+thead {
+  background-color: #303447;
+
+}
+
+.styled-table tr:nth-child(odd) {
+  background-color: #424760;
+  color: #fff;
+}
+
+.information-table {
+
+  width: 1250px;
+  margin: 20px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  padding-top: 40px;
+
+}
+
+.table {
+  margin: 100px;
+}
+
+.graph {
+  border-collapse: collapse;
+  margin: 25px 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #303447;
+  color: #ffffff;
+  text-align: left;
+  font-size: large;
+}
+
+.styled-table td {
+  padding: 12px 15px;
+
+}
+
+.table-graph {
+  display: grid;
+  grid-template-columns: 50% 50%
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
